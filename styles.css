@@ -3,14 +3,17 @@ body {
   font-family: sans-serif;
   padding: 20px;
 }
+
 h1 {
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 15px;
 }
+
 h2 {
   font-size: 30px;
 }
+
 .established {
   font-style: italic;
 }
@@ -57,4 +60,41 @@ h2 {
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 18px;
+}
+
+.flavor,
+.dessert {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+}
+
+.address {
+  margin-bottom: 5px;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: brown;
 }
